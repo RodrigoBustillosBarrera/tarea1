@@ -1,0 +1,84 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #87CEEB; /* Color de fondo azul claro */
+}
+
+.muñecodenieve {
+  width: 100px;
+  height: 200px;
+  position: relative;
+}
+
+.cuerpo {
+  width: 200px;
+  height: 200px;
+  background-color: #ffffff; /* Color de la nieve */
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+}
+
+.cabeza {
+  width: 100px;
+  height: 100px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: -90px;
+  left: 35px;
+}
+
+.ojos {
+  width: 12px;
+  height: 12px;
+  background-color: #000000; /* Color de los ojos */
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+.ojos2 {
+  width: 12px;
+  height: 12px;
+  background-color: #000000; /* Color de los ojos */
+  border-radius: 50%;
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+
+.boca {
+  width: 60px;
+  height: 10px;
+  background-color: #000000;
+  position: absolute;
+  top: 60px;
+  left: 20px;
+}
+
+.brazos {
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  top: -10px;
+}
+
+.brazo {
+  width: 50px;
+  height: 50px;
+  background-color: #8B4513; /* Color de los brazos (marrón) */
+  border-radius: 50%;
+  position: absolute;
+}
+
+.brazo:first-child {
+  left: -20px;
+}
+
+.brazo:last-child {
+  right: -110px;
+}
